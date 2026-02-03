@@ -1,0 +1,21 @@
+name,country,level,field,min_gpa,max_income
+Germany DAAD,Germany,Masters,Computer Science,3.0,50000
+Fulbright USA,USA,Masters,All,3.2,60000
+Chevening UK,UK,Masters,All,3.0,55000
+Erasmus+,Europe,Masters,All,2.8,70000
+Chinese CSC,China,Masters,Engineering,2.7,40000
+Turkey Burslari,Turkey,Bachelors,All,2.5,30000
+Australia Awards,Australia,Masters,All,3.0,65000
+MEXT Japan,Japan,Masters,Engineering,2.8,45000
+Italy DSU,Italy,Masters,All,2.5,35000
+Korea GKS,South Korea,Masters,Engineering,2.9,45000
+France Eiffel,France,Masters,All,3.1,60000
+Canada Vanier,Canada,PhD,All,3.5,70000
+Sweden SI,Sweden,Masters,All,3.0,50000
+Netherlands Orange,Netherlands,Masters,All,2.8,55000
+Finland EDUFI,Finland,Masters,All,2.7,50000
+New Zealand Manaaki,New Zealand,Masters,All,3.0,60000
+Saudi Arabia Scholarship,Saudi Arabia,Bachelors,All,2.5,30000
+Malaysia MTCP,Malaysia,Masters,All,2.7,40000
+Russia Open Doors,Russia,Masters,Engineering,2.6,35000
+Hungary Stipendium,Hungary,Masters,All,2.7,40000
