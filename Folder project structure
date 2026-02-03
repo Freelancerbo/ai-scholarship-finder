@@ -1,0 +1,20 @@
+ai-scholarship-finder/
+│
+├── backend/
+│   ├── app.py
+│   ├── model.py
+│   ├── database.py
+│
+├── database/
+│   ├── scholarships.db
+│   ├── scholarships.csv
+│
+├── frontend/
+│   ├── templates/
+│   │   ├── index.html
+│   │   ├── results.html
+│   ├── static/
+│   │   ├── style.css
+│
+├── requirements.txt
+├── README.md
