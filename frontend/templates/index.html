@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Scholarship Finder System</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>AI Scholarship Finder System</h1>
+      <p>Submit your profile to discover scholarships matched by our AI-driven recommendation model.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Student Profile</h2>
+      <form id="profile-form">
+        <div class="grid">
+          <label>
+            Full Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Age
+            <input type="number" name="age" min="15" max="60" required />
+          </label>
+          <label>
+            Country
+            <input type="text" name="country" placeholder="e.g. USA" required />
+          </label>
+          <label>
+            Education Level
+            <select name="education_level" required>
+              <option value="High School">High School</option>
+              <option value="Associate">Associate</option>
+              <option value="Bachelor">Bachelor</option>
+              <option value="Master">Master</option>
+              <option value="PhD">PhD</option>
+            </select>
+          </label>
+          <label>
+            GPA (0 - 4)
+            <input type="number" name="gpa" step="0.01" min="0" max="4" required />
+          </label>
+          <label>
+            Field of Study
+            <input type="text" name="field_of_study" placeholder="e.g. Data Science" required />
+          </label>
+          <label>
+            Annual Income (USD)
+            <input type="number" name="income" min="0" required />
+          </label>
+        </div>
+        <button type="submit">Find Scholarships</button>
+      </form>
+    </section>
+
+    <section class="card" id="results">
+      <h2>Recommended Scholarships</h2>
+      <p class="muted">Complete the profile form to see personalized recommendations.</p>
+      <div class="results-list" id="results-list"></div>
+    </section>
+  </main>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
